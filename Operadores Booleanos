@@ -1,0 +1,65 @@
+TIPOS BOOELANO EM PHP (CLAUSULA DE LÓGICA)
+
+// Mostrar String com clausula booleana
+
+<php
+
+$mostra_nome = true;  // clausula verdade
+
+if($mostrar_nome){
+
+	echo "Escola Linux";
+}
+?>
+--------------------------------------------------------------------------------
+// vELOCIMETRO
+
+<?PHP
+
+$velocidade = 110;
+
+$max_permitida = ($velocidade > 110);
+
+if ($max_permitida){
+	
+	echo "Acima da velocidade";
+}
+?>
+---------------------------------------------------------------------------------
+// Operadores && (e), || (ou), !$x (nao)
+
+<?php
+
+$a = 10;
+
+$b = 2;
+
+if ($a && $b > 0){
+
+	echo "a e b sao positivos";
+}
+?>  
+----------------------------------------------------------------------------------
+<?php
+
+$a = 1;
+
+$b = 2;
+
+if ($a || $b > 0 || $c > -1 ){
+
+	echo "a e b tem valores pos"
+}
+	echo "a e b podem ser maiores que zero"
+
+?>
+------------------------------------------------------------------------------------
+<?php
+
+$Clima = chuva;
+
+if(!$clima){
+
+	echo "Dia de chuva!"
+}
+?>
